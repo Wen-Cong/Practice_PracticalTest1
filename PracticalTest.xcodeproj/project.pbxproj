@@ -16,6 +16,11 @@
 		09383B7C2581B0B700D69FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09383B7A2581B0B700D69FA0 /* LaunchScreen.storyboard */; };
 		09383B872581B0B700D69FA0 /* PracticalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09383B862581B0B700D69FA0 /* PracticalTestTests.swift */; };
 		09383B922581B0B700D69FA0 /* PracticalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09383B912581B0B700D69FA0 /* PracticalTestUITests.swift */; };
+		099231162581BD5A0047D328 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099231152581BD5A0047D328 /* RecipeTableViewController.swift */; };
+		0992311B2581C3C50047D328 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0992311A2581C3C50047D328 /* Recipe.swift */; };
+		099231202581C4450047D328 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0992311F2581C4450047D328 /* Ingredient.swift */; };
+		09923125258200D40047D328 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09923124258200D40047D328 /* AddRecipeViewController.swift */; };
+		0992312A25820B8A0047D328 /* RecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0992312925820B8A0047D328 /* RecipeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		09383B8D2581B0B700D69FA0 /* PracticalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09383B912581B0B700D69FA0 /* PracticalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticalTestUITests.swift; sourceTree = "<group>"; };
 		09383B932581B0B700D69FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099231152581BD5A0047D328 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		0992311A2581C3C50047D328 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		0992311F2581C4450047D328 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		09923124258200D40047D328 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		0992312925820B8A0047D328 /* RecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				09383B7A2581B0B700D69FA0 /* LaunchScreen.storyboard */,
 				09383B7D2581B0B700D69FA0 /* Info.plist */,
 				09383B752581B0B600D69FA0 /* PracticalTest.xcdatamodeld */,
+				099231152581BD5A0047D328 /* RecipeTableViewController.swift */,
+				0992311A2581C3C50047D328 /* Recipe.swift */,
+				0992311F2581C4450047D328 /* Ingredient.swift */,
+				09923124258200D40047D328 /* AddRecipeViewController.swift */,
+				0992312925820B8A0047D328 /* RecipeController.swift */,
 			);
 			path = PracticalTest;
 			sourceTree = "<group>";
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09923125258200D40047D328 /* AddRecipeViewController.swift in Sources */,
 				09383B712581B0B600D69FA0 /* ViewController.swift in Sources */,
 				09383B772581B0B600D69FA0 /* PracticalTest.xcdatamodeld in Sources */,
+				099231202581C4450047D328 /* Ingredient.swift in Sources */,
 				09383B6D2581B0B600D69FA0 /* AppDelegate.swift in Sources */,
+				0992312A25820B8A0047D328 /* RecipeController.swift in Sources */,
+				0992311B2581C3C50047D328 /* Recipe.swift in Sources */,
 				09383B6F2581B0B600D69FA0 /* SceneDelegate.swift in Sources */,
+				099231162581BD5A0047D328 /* RecipeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
